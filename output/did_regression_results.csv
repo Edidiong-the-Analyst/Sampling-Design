@@ -1,0 +1,5 @@
+"term","estimate","cluster_robust_se","t_value","p_value"
+"(Intercept)",23.972,0.891,26.9,4.38e-80
+"treated",2.205,1.303,1.69,0.0916
+"post",0.898,0.559,1.61,0.109
+"treated:post",5.788,0.762,7.6,4.35e-13

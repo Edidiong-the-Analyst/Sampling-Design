@@ -1,0 +1,22 @@
+Difference-in-Differences Analysis Summary
+===========================================
+
+1. Main DiD estimate (2024 pre vs 2025 post):
+         term estimate cluster_robust_se t_value  p_value
+  (Intercept)   23.972             0.891   26.90 4.38e-80
+      treated    2.205             1.303    1.69 9.16e-02
+         post    0.898             0.559    1.61 1.09e-01
+ treated:post    5.788             0.762    7.60 4.35e-13
+
+Estimated programme effect: 5.79 percentage points (cluster-robust SE reported above)
+
+2. Pre-trend check (2023 vs 2024, pre-programme):
+          term estimate cluster_robust_se t_value  p_value
+   (Intercept)   23.532             0.884   26.63 3.45e-79
+       treated    1.419             1.333    1.06 2.88e-01
+         wave1    0.440             0.606    0.73 4.68e-01
+ treated:wave1    0.786             0.853    0.92 3.58e-01
+
+p-value on treated x wave1 (pre-trend): 0.358
+
+3. Permutation placebo test: p = 0.000 (1000 re-randomisations)

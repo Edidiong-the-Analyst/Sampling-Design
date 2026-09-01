@@ -1,0 +1,28 @@
+Sampling Design Summary
+========================
+
+Design: two-arm (treatment vs. control), cluster-level, single post-baseline comparison feeding into a DiD analysis (see script 03).
+Baseline mCPR assumed:      25%
+Minimum detectable effect:  8 percentage points
+Alpha / Power:               0.05 / 0.80
+Assumed ICC:                 0.020
+Design effect:               4.58
+Clusters required per arm:   13
+Total clusters:              26
+Total planned respondents:   4680
+
+Allocation by state:
+   state eligible_communities clusters_allocated clusters_treatment
+   Lagos                  340                  5                  2
+    Kano                  410                  6                  3
+  Kaduna                  300                  4                  2
+  Rivers                  260                  4                  2
+ Anambra                  190                  3                  2
+     Oyo                  250                  4                  2
+ clusters_control
+                3
+                3
+                2
+                2
+                1
+                2
